@@ -11,3 +11,5 @@ console.log("leyendo segundo archivo");
 fs.readFile("./archivo2.txt", "utf-8", (error, text) => {
   console.log("segundo texto: " + text);
 });
+
+//rename exists
